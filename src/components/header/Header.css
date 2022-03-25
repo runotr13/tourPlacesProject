@@ -1,0 +1,34 @@
+
+.title{
+    font-family: "Amatic SC", cursive;
+    font-size: 3.2rem;
+    transition: all .2s ease-in-out;
+    color:purple;
+}
+.titleheader:hover{
+    font-size: 3.3rem;
+    color: #000;
+}
+.titleheader{
+    text-align: center;
+    padding: 25px 0;
+    transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-header, .title {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        width: 100%; 
+        font-size: 2rem ;
+        justify-content:center;  
+    }
+}
+@media screen and (max-width: 590px) {
+    .nav-header, .title {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        font-size: 1.8rem ;    
+    }
+}

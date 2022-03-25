@@ -1,0 +1,36 @@
+.nav-header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #192a56;
+    transition: all .2s ease-in-out
+}
+.nav-link{
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-family: "Amatic SC", cursive;
+    transition: all .2s ease-in-out;
+}
+.nav-link:hover{
+    background-color: #7FD1F7;
+    transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 950px) {
+    .nav-header ,.nav-link{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        width: 100%; 
+        font-size: 2rem ;      
+    }
+}
+@media screen and (max-width: 640px) {
+    .nav-header ,.nav-link{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        font-size: 1.3rem ;    
+    }
+}
